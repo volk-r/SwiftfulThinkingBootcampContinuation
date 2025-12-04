@@ -50,7 +50,7 @@ struct MagnificationGestureBootCamp: View {
 //        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
 //			.font(.title)
 //			.padding(40)
-//			.background(Color.red.cornerRadius(10))
+//			.background(Color.red..clipShape(RoundedRectangle(cornerRadius: 10)))
 //			.scaleEffect(1 + currentAmount + lastAmount)
 //			.gesture(
 //				MagnifyGesture()

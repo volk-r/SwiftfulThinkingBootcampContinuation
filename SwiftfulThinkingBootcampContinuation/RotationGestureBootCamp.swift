@@ -17,7 +17,7 @@ struct RotationGestureBootCamp: View {
 			.fontWeight(.semibold)
 			.foregroundStyle(.white)
 			.padding(50)
-			.background(Color.blue.cornerRadius(10))
+			.background(Color.blue.clipShape(RoundedRectangle(cornerRadius: 10)))
 			.rotationEffect(angle)
 			.gesture(
 				RotationGesture()

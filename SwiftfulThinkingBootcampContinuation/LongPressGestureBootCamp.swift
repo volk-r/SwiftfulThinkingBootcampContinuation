@@ -26,7 +26,7 @@ struct LongPressGestureBootCamp: View {
 					.foregroundStyle(.white)
 					.padding()
 					.background(.black)
-					.cornerRadius(10)
+					.clipShape(RoundedRectangle(cornerRadius: 10))
 					.onLongPressGesture(minimumDuration: 1, maximumDistance: 50) {
 						// at the min duration
 						withAnimation(.easeOut) {
@@ -54,7 +54,7 @@ struct LongPressGestureBootCamp: View {
 					.foregroundStyle(.white)
 					.padding()
 					.background(.black)
-					.cornerRadius(10)
+					.clipShape(RoundedRectangle(cornerRadius: 10))
 					.onTapGesture {
 						isCompleted = false
 						isSuccess = false
@@ -66,7 +66,7 @@ struct LongPressGestureBootCamp: View {
 //			.padding()
 //			.padding(.horizontal)
 //			.background(isCompleted ? Color.green : Color.gray)
-//			.cornerRadius(10)
+//			.clipShape(RoundedRectangle(cornerRadius: 10))
 ////			.onTapGesture {
 ////				isCompleted.toggle()
 ////			}
