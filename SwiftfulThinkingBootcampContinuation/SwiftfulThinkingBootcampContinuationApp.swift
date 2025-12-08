@@ -12,7 +12,8 @@ struct SwiftfulThinkingBootcampContinuationApp: App {
     var body: some Scene {
         WindowGroup {
 //			HapticsBootcamp()
-			LocalNotificationBootcamp()
+//			LocalNotificationBootcamp()
+			CoreDataBootcamp()
         }
     }
 }
