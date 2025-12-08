@@ -13,7 +13,8 @@ struct SwiftfulThinkingBootcampContinuationApp: App {
         WindowGroup {
 //			HapticsBootcamp()
 //			LocalNotificationBootcamp()
-			CoreDataBootcamp()
+//			CoreDataBootcamp()
+			CoreDataRelationships()
         }
     }
 }
