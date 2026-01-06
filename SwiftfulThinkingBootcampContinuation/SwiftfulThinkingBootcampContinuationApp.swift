@@ -15,7 +15,8 @@ struct SwiftfulThinkingBootcampContinuationApp: App {
 //			LocalNotificationBootcamp()
 //			CoreDataBootcamp()
 //			CoreDataRelationships()
-			DownloadWithEscapingBootcamp()
+//			DownloadWithEscapingBootcamp()
+			FileManagerBootcamp()
         }
     }
 }
