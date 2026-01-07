@@ -17,7 +17,8 @@ struct SwiftfulThinkingBootcampContinuationApp: App {
 //			CoreDataRelationships()
 //			DownloadWithEscapingBootcamp()
 //			FileManagerBootcamp()
-			DownloadingImagesBootcamp()
+//			DownloadingImagesBootcamp()
+			AccessibilityColorsBootcamp()
         }
     }
 }
